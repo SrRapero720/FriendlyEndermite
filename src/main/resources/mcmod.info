@@ -1,0 +1,14 @@
+[
+{
+  "modid": "friendlyendermite",
+  "name": "FriendlyEndermite",
+  "description": "Enderman will not attack Endermite",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["CreativeMD"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
