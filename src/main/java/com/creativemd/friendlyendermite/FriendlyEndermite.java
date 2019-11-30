@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.ReflectionHelper;
 
 @Mod.EventBusSubscriber
-@Mod(modid = FriendlyEndermite.modid, name = "Friendly Endermite", version = FriendlyEndermite.version)
+@Mod(modid = FriendlyEndermite.modid, name = "Friendly Endermite", version = FriendlyEndermite.version, acceptableRemoteVersions = "*")
 public class FriendlyEndermite {
 	
 	public static final String modid = "friendlyendermite";
