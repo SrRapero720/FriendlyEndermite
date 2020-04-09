@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[24,)"
+issueTrackerURL="https://github.com/CreativeMD/FriendlyEndermite/issues"
+
+[[mods]]
+	modId="friendlyendermite"
+	version="1.0.0"
+	displayName="Friendly Endermite"
+	displayURL="https://www.curseforge.com/minecraft/mc-mods/friendlyendermite"
+	authors=["CreativeMD"]
+	description='''Endermans will not attack Endermites anymore, so they cannot be used to make an Enderman farm.'''
+	
