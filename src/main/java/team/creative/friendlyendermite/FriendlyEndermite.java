@@ -30,7 +30,7 @@ public class FriendlyEndermite {
             try {
                 Set<PrioritizedGoal> set = (Set<PrioritizedGoal>) goals.get(man.targetSelector);
                 for (PrioritizedGoal goal : set) {
-                    if (goal.getGoal() instanceof NearestAttackableTargetGoal && targetClassField.get(goal) == EndermiteEntity.class) {
+                    if (goal.getGoal() instanceof NearestAttackableTargetGoal && targetClassField.get(goal.getGoal()) == EndermiteEntity.class) {
                         man.targetSelector.removeGoal(goal.getGoal());
                         return;
                     }
