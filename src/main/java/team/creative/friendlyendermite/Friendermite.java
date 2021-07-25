@@ -14,10 +14,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.util.ObfuscationReflectionHelper;
 
 @Mod.EventBusSubscriber
-@Mod(value = FriendlyEndermite.modid)
-public class FriendlyEndermite {
+@Mod(value = Friendermite.modid)
+public class Friendermite {
     
-    public static final String modid = "friendlyendermite";
+    public static final String modid = "friendermite";
     public static final String version = "1.0";
     
     private static final Field goals = ObfuscationReflectionHelper.findField(GoalSelector.class, "f_25345_");
