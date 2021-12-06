@@ -21,7 +21,7 @@ public class Friendermite {
     public static final String version = "1.0";
     
     private static final Field goals = ObfuscationReflectionHelper.findField(GoalSelector.class, "f_25345_");
-    private static final Field targetClassField = ObfuscationReflectionHelper.findField(NearestAttackableTargetGoal.class, "field_75307_b");
+    private static final Field targetClassField = ObfuscationReflectionHelper.findField(NearestAttackableTargetGoal.class, "f_26048_");
     
     @SubscribeEvent
     public static void entitySpawned(EntityJoinWorldEvent event) {
