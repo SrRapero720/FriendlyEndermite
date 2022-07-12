@@ -8,7 +8,7 @@ import net.minecraft.world.entity.ai.goal.WrappedGoal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.monster.EnderMan;
 import net.minecraft.world.entity.monster.Endermite;
-import net.minecraftforge.event.entity.EntityJoinWorldEvent;
+import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.util.ObfuscationReflectionHelper;
@@ -24,7 +24,7 @@ public class Friendermite {
     private static final Field targetClassField = ObfuscationReflectionHelper.findField(NearestAttackableTargetGoal.class, "f_26048_");
     
     @SubscribeEvent
-    public static void entitySpawned(EntityJoinWorldEvent event) {
+    public static void entitySpawned(EntityJoinLevelEvent event) {
         if (event.getEntity() instanceof EnderMan) {
             EnderMan man = (EnderMan) event.getEntity();
             try {
