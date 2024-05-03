@@ -25,8 +25,14 @@ runs {
     }
 }
 
+configurations {
+    runtimeClasspath.extendsFrom localRuntime
+}
+
 dependencies {
-    implementation "net.neoforged:neoforge:${forge_version}"
+    compileOnly "net.neoforged:neoforge:${forge_version}"
+    localRuntime "net.neoforged:neoforge:${forge_version}"
 }
 
 modDependencies = []
+modMixins = [ "friendermite.mixins.json" ]

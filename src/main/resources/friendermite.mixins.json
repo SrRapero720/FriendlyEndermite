@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "package": "team.creative.friendermite.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "refmap": "friendermite.mixin.refmap.json",
+    "server": [
+    ],
+    "mixins": [
+        "GoalSelectorAccessor",
+        "NearestAttackableTargetGoalAccessor"
+    ],
+    "client": [
+    ],
+    "minVersion": "0.8"
+}
