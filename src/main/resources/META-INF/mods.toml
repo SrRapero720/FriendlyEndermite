@@ -1,13 +1,28 @@
 modLoader="javafml"
-loaderVersion="[24,)"
+loaderVersion="[40,)"
 issueTrackerURL="https://github.com/CreativeMD/FriendlyEndermite/issues"
-license="GNU General Public License v3.0"
+license="LGPL-3.0-only"
 
 [[mods]]
-	modId="friendermite"
-	version="${file.jarVersion}"
-	displayName="Friendermite"
-	displayURL="https://www.curseforge.com/minecraft/mc-mods/friendlyendermite"
-	authors=["CreativeMD"]
-	description='''Endermans will not attack Endermites anymore, so they cannot be used to make an Enderman farm.'''
-	
+    modId="friendermite"
+    logoFile="friendermite.png"
+    version="1.0.5"
+    displayName="Friendermite"
+    displayURL="https://modrinth.com/mod/friendermite"
+    authors="CreativeMD"
+    description='''Endermans will not attack Endermites anymore, so they cannot be used to make an Enderman farm.'''
+
+[[dependencies.friendermite]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40.2.14,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.friendermite]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18,1.19)"
+    ordering="NONE"
+    side="BOTH"
+
