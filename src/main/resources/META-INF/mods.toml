@@ -9,7 +9,7 @@ license="LGPL-3.0-only"
     version="1.0.6"
     displayName="Friendermite"
     displayURL="https://modrinth.com/mod/friendermite"
-    displayTest="MATCH_VERSION"
+    displayTest="IGNORE_SERVER_VERSION"
     authors="CreativeMD"
     description='''Endermans will not attack Endermites anymore, so they cannot be used to make an Enderman farm.'''
 
